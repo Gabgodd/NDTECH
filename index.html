@@ -27,7 +27,7 @@
 
         /* Logo styles */
         .logo-container {
-            width: 15%; /* Adjust the width as needed */
+            width: 20%;
             display: flex;
             align-items: center;
         }
@@ -36,6 +36,24 @@
             max-width: 100%;
             height: auto;
             margin-right: 10px;
+        }
+
+        /* Text on the right side of the header */
+        .header-text {
+            width: 50%;
+            text-align: left;
+            color: darkblue;
+            font-weight: bold;
+            line-height: 1.5;
+        }
+
+        /* NDTECH text */
+        .ndtech-text {
+            width: 20%;
+            text-align: right;
+            font-size: 1.5rem;
+            font-weight: bold;
+            text-shadow: 1px 1px 1px black;
         }
 
         /* Main content styles */
@@ -58,9 +76,17 @@
 <body>
     <header class="header">
         <div class="logo-container">
-            <img src="NDTECHLOGO.png" alt="NDTECH Logo" class="logo">
+            <img src="NDTECHLOGO.PNG" alt="NDTECH Logo" class="logo">
         </div>
-        <h1>NDTECH</h1>
+        <div class="header-text">
+            <p>INSPEÇÃO</p>
+            <p>NR-13</p>
+            <p>TROCADOR DE CALOR</p>
+            <p>CALDEIRAS E RESFRIADORES</p>
+        </div>
+        <div class="ndtech-text">
+            NDTECH
+        </div>
     </header>
 
     <main class="main">
